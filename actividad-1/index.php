@@ -8,21 +8,21 @@
     </head>
     <body>
         <?php
-            /* <br> Es para agregar renglones */
             echo "Nombre: David Santiago Rivas Agudelo<br>
                 Número de cedula: 1.026.291.172<br>";
         ?>
 
         <p><strong>
             <?php
-                echo "Un saludo a la instructora Vanessa Cristina Miranda Cano";
+                echo "Un saludo a la instructora Vanessa Cristina Miranda Cano.";
             ?>
         </strong></p>
 
         <?php
-            $image_url = "screenshot.jpg"; /* Estoy creando variables */
+            $image_url = "code-screenshot.jpg";
+            $image_alt = "Captura de pantalla del código";
         ?>
 
-        <img alt="" src='<?php echo $image_url; ?>'> <!-- Estoy agregando imágenes -->
+        <img alt="<?php echo $image_alt; ?>" src='<?php echo $image_url; ?>'>
     </body>
 </html>
