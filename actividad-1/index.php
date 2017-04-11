@@ -8,6 +8,14 @@
     </head>
     <body>
         <?php
+            /* ┌────────────────────────────────────────────────────┐
+             * │ DATOS DEL DESARROLLADOR:                           │
+             * │ Nombre: David Santiago Rivas Agudelo               │
+             * │ Programa de formación: Desarrollo Web con PHP      │
+             * │ Evidencia: Taller “Instalación y prueba funcional” │
+             * └────────────────────────────────────────────────────┘
+             */
+
             echo "Nombre: David Santiago Rivas Agudelo<br>
                 Número de cedula: 1.026.291.172<br>";
         ?>

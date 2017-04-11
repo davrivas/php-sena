@@ -6,12 +6,14 @@
     <title>Actividad 2</title>
 </head>
 <body>
-    <?php
-        /* Desarrollado por: David Santiago Rivas Agudelo
-         * Programa de formación: Desarrollo Web con PHP
-         * Nombre de la evidencia: Taller “Uso de arreglos”
-         */
-    ?>
+    <!-- ┌────────────────────────────────────────────────────┐
+         │ DATOS DEL DESARROLLADOR:                           │
+         │ Nombre: David Santiago Rivas Agudelo               │
+         │ Programa de formación: Desarrollo Web con PHP      │
+         │ Evidencia: Taller “Uso de arreglos”                │
+         └────────────────────────────────────────────────────┘
+    -->
+        
 
     <h1>Directorio</h1>
 

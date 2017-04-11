@@ -11,23 +11,23 @@
          */
         switch ($op) {
             case 'suma':
-                return ($a + $b);
+                return $a . " + " . $b . " = " . ($a + $b);
             break;
 
             case 'resta':
-                return ($a - $b);
+                return $a . " - " . $b . " = " . ($a - $b);
             break;
 
             case 'mult':
-                return ($a * $b);
+                return $a . " * " . $b . " = " . ($a * $b);
             break;
 
             case 'div':
-                return ($a / $b);
+                return $a . " / " . $b . " = " . ($a / $b);
             break;
             
             default:
-                return ($a + $b);
+                return $a . " + " . $b . " = " . ($a + $b);
             break;
         }       
     }
