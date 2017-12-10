@@ -66,7 +66,7 @@
                 value="Enviar">
             </td>
             <td>
-                <button id="borrar">Borrar</button>
+                <input id="borrar" type="reset" value="Borrar">
             </td>
         </tr>
     </form>

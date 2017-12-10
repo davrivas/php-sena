@@ -44,10 +44,41 @@
                     <th><?php echo $i; ?></th>
                 <?php
                     foreach ($filas as $puestos) {
+                        // Genero cada valor de la matriz
                 ?>
-                    <!-- Genero cada valor de la matriz -->
-                    <td class="puestos"><?php echo $puestos; ?></td>
-                <?php
+                    
+                    <?php
+                        switch ($puestos) {
+                            case 'L':
+                                ?>
+                                    <td style="background-color:#0f0;color:#fff">
+                                        <?php
+                                            echo $puestos;
+                                        ?>
+                                    </td>
+                                <?php
+                                break;
+                            
+                            case 'R':
+                                ?>
+                                    <td style="background-color:#ff0;color:#fff">
+                                        <?php
+                                            echo $puestos;
+                                        ?>
+                                    </td>
+                                <?php
+                                break;
+
+                            case 'V':
+                                ?>
+                                    <td style="background-color:#f00;color:#fff">
+                                        <?php
+                                            echo $puestos;
+                                        ?>
+                                    </td>
+                                <?php
+                                break;
+                        }
                     }
                 ?>
                 </tr>
