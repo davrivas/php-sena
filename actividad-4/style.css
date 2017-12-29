@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: #000;
 }
 
@@ -17,10 +17,22 @@ table {
     margin: auto;
 }
 
-#escenario, th, td.puestos {
+#escenario, th, td {
     border: 1px solid #fff;
-    color: #fff;
+    color: #fff !important;
     text-align: center;
+}
+
+td.libre {
+    background-color: #1b731b;
+}
+
+td.reservada {
+    background-color: #ffa500;
+}
+
+td.vendida {
+    background-color: #b00;
 }
 
 #iconoEscenario {

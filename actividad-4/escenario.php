@@ -51,30 +51,24 @@
                         switch ($puestos) {
                             case 'L':
                                 ?>
-                                    <td style="background-color:#0f0;color:#fff">
-                                        <?php
-                                            echo $puestos;
-                                        ?>
+                                    <td class="libre">
+                                        <?php echo $puestos; ?>
                                     </td>
                                 <?php
                                 break;
                             
                             case 'R':
                                 ?>
-                                    <td style="background-color:#ff0;color:#fff">
-                                        <?php
-                                            echo $puestos;
-                                        ?>
+                                    <td class="reservada">
+                                        <?php echo $puestos; ?>
                                     </td>
                                 <?php
                                 break;
 
                             case 'V':
                                 ?>
-                                    <td style="background-color:#f00;color:#fff">
-                                        <?php
-                                            echo $puestos;
-                                        ?>
+                                    <td class="vendida">
+                                        <?php echo $puestos; ?>
                                     </td>
                                 <?php
                                 break;
